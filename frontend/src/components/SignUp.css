@@ -1,0 +1,110 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%; 
+  max-width: 380px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 0 5%; 
+}
+
+.sign-up-form input {
+  width: 90%; 
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.sign-up-form input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.visibility-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+}
+
+.otp-wrapper {
+  position: relative;
+}
+
+.otp-wrapper input {
+  width: 83%; 
+  padding-right: 40px; 
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.otp-wrapper button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.submit-btn {
+  width: 97%; 
+  padding: 12px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0; 
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.sign-up-form a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sign-up-form a:hover {
+  text-decoration: underline;
+}
+
+.otp-btn {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.otp-btn:hover {
+  color: #e9660f;
+}
